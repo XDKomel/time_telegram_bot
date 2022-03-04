@@ -1,6 +1,6 @@
 import telebot
-from time_module import time_module
-from commands import set_commands
+from modules.time_module import time_module
+from modules.commands import set_commands
 
 token = '5189850186:AAHPqb5LybLL9uRTHkZKOHsIqn4HPD2OHGk'
 bot = telebot.TeleBot(token)
